@@ -8,9 +8,7 @@ Example use: build a website with Polymer elements that doesn't include Roboto w
 Add the folowing to your `bower.json`:
 
 ```json
-"resolutions": {
-  "font-roboto": "newatoms/no-roboto"
-}
+"font-roboto": "newatoms/no-roboto"
 ```
 
 This will install `no-roboto` in the place of `font-roboto`, fooling your application it actually has Roboto installed.
